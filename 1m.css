@@ -1,0 +1,60 @@
+
+.Modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+}
+
+.Modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+.Modal-box > .video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  max-width: 177.78vh;
+  height: 56.25vw;
+  max-height: 100vh;
+  margin: auto;
+  overflow: hidden;
+}
+.Modal-box > .video-container > iframe,
+.Modal-box > .video-container > object,
+.Modal-box > .video-container > embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9001;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.Modal-cancel-overflow {
+  overflow: hidden;
+}
