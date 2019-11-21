@@ -304,6 +304,9 @@ aside {
   float: left;
   text-align: right;
   width: 30%;
+  
+  
+  font-size: 12px;
 }
 
 .summary-delivery {
@@ -339,7 +342,7 @@ aside {
   
   
     position: absolute;
-  top: 160px;
+  top: 130px;
   left:24px;
   
   
