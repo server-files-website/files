@@ -1,1 +1,0 @@
-<script src='https://cdn.statically.io/gh/yehia-hacker/yehia.online/6cfb4155/javascript/story.min.js'></script>
